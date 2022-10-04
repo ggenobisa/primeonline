@@ -1,0 +1,72 @@
+.hero {
+    background: url('../img/banner-desktop.jpg') center center/cover no-repeat; 
+    height: 100vh; 
+    width: 100%; 
+    position: relative;
+}
+
+
+.hero .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    color: var(--plain);
+    letter-spacing: 10px;
+}
+
+.hero .content h1 {
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.hero .content h2 {
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.hero .content .hero-btn {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+}
+
+.hero .content .hero-btn h3 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+/*--------------RESPONSIVE CSS ----------------*/
+@media screen and (max-width:940px) {
+    .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat; }
+    .hero .content h1 {font-size: 40px;}
+    .hero .content h2 {font-size: 20px;}
+    .hero .content .hero-btn h3 {font-size: 12px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

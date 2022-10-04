@@ -1,0 +1,113 @@
+/* #expertise::before {
+    content: '';
+    display: block;
+    height: 75px;
+    margin-top: -75px;
+    visibility: hidden;
+} */
+
+
+
+.expertise {
+    background-color: var(--background);
+    height: 100vh; 
+    width: 100%; 
+    position: relative;
+}
+
+
+.expertise .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+    /* padding: 1rem; */
+    text-align: center;
+    color: var(--plain);
+}
+
+.expertise .content .expertise-container-heading {
+    display: inline-flex;
+    margin: 0 auto;
+    padding-bottom: 130px;
+    
+}
+
+.expertise .content .expertise-container-heading h2 {
+    font-size: 70px;
+    font-weight: 700;
+}
+.expertise .content .expertise-container-heading h2:first-child {
+    color: var(--primary);
+    padding-right: 10px;
+}
+
+.expertise .content .expertise-container-heading h2:nth-child(2) {
+    color: var(--secondary);
+}
+
+.expertise-content .container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    text-align: left;
+}
+
+.expertise-content .col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.expertise-content .container ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.expertise-content .container ul li img {
+    vertical-align: bottom;
+    padding-right: 20px;
+}
+
+.expertise .content .expertise-btn {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+
+/*--------------RESPONSIVE CSS ----------------*/
+@media screen and (max-width:940px) {
+    .expertise .content .expertise-container-heading {display:block; padding-bottom: 30px;}
+    .expertise .content .expertise-container-heading h2 {font-size: 50px;}
+    .expertise .content .expertise-content {margin: 0 auto;}
+    .expertise-content .container {grid-template-columns: 1fr;}
+    .expertise-content .container ul li {font-size: 16px; margin-bottom: 25px;}
+    .expertise-content .container ul li img {width: 50px;}
+    .expertise .content .expertise-btn {bottom: 1%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

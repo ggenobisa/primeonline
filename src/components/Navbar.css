@@ -1,0 +1,137 @@
+.header {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* transition: .3s ease-in; */
+    overflow: hidden;
+    background-color: var(--plain);
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1550px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.header .nav-menu a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.header .navbar img {
+    width: 250px;
+    height: auto;
+}
+
+.header .nav-menu {
+    display: flex;
+    /* padding-top: 5px; */
+}
+
+.header .nav-item {
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+}
+
+.header .nav-item a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--primary);
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+/*--------------RESPONSIVE CSS ----------------*/
+@media screen and (max-width:940px) {
+    .header {
+        max-width: 100%;
+        height: 70px;
+    }
+
+    .header .navbar {
+        max-width: 100%;
+        position: relative;
+    }
+
+    .hamburger {
+        display: block;
+        
+    }
+
+    .hamburger .btn-fatimes {
+        position: absolute;
+        left: 2%;
+        top: 25%;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 90px;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        z-index: 999;
+        text-align: center;
+        /* transition: .3s; */
+    }
+
+    .nav-menu.active {
+        left: 40%;
+        top: 0;
+        background-color: var(--plain);
+        width: 100%;
+        height: 100vh;
+        float: right;
+        z-index: 4;
+        /* transition: none; */
+        text-align: left;
+    }
+
+    /* .nav-menu.active {
+        padding: 1.5rem 2rem;
+    } */
+    /* .nav-menu.active li {
+        background-color: white;
+        width: 50%;
+    } */
+
+    /* .nav-item {
+        margin: 1.5rem 0;
+    } */
+    .nav-menu.active .prime-details {
+        padding: 0 1.5rem;
+        position: absolute;
+        bottom: 5%;
+    }
+    .nav-menu.active .prime-details p {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--primary);
+        margin-bottom: 10px;
+    }
+
+    .nav-menu.active .prime-details ul {
+        display: inline-flex;
+    }
+    .nav-menu.active .prime-details ul li img {
+        width: 40px;
+        margin-right: 5px;
+    }
+
+    .header .navbar img {
+        width: 175px;
+    }
+}

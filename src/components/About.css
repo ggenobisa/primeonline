@@ -1,0 +1,80 @@
+.about {
+    background: url('../img/about-us-desktop.jpg') center center/cover no-repeat; 
+    height: 100vh; 
+    width: 100%; 
+    position: relative;
+    border-bottom: 5px dotted #60A7DB;
+}
+
+
+.about .content {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    color: var(--plain);
+}
+
+.about .content .about-us-container-heading {
+    display: inline-flex;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    
+}
+
+.about .content .about-us-container-heading h2 {
+    font-size: 70px;
+    font-weight: 900;
+}
+.about .content .about-us-container-heading h2:first-child {
+    color: var(--primary);
+    padding-right: 10px;
+}
+
+.about .content .about-us-container-heading h2:nth-child(2) {
+    color: var(--secondary);
+}
+
+.about .content .about-btn {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+
+.about .content .about-btn h3 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+/*--------------RESPONSIVE CSS ----------------*/
+@media screen and (max-width:940px) {
+    .about {background: url('../img/mobile/about-m.jpg') center center/cover no-repeat;}
+    .about .content .about-us-container-heading h2 {font-size: 40px;}
+    .about .content p {font-size: 14px;}
+    .about .content .about-us-container-heading {margin-bottom: 40px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

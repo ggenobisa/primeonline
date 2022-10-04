@@ -1,0 +1,165 @@
+#brands::before {
+    content: '';
+    display: block;
+    height: 75px;
+    margin-top: -75px;
+    visibility: hidden;
+}
+
+
+.brand {
+    /* height: 100vh;  */
+    width: 100%; 
+    /* position: relative; */
+    border-bottom: 5px dotted #60A7DB;
+}
+
+
+.brand .content {
+    /* height: 40%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 1300px; */
+    margin: auto;
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--plain);
+    padding-bottom: 0;
+}
+
+.brand .content .our-brand-container-heading {
+    display: inline-flex;
+    margin: 0 auto;
+    
+}
+
+.brand .content .our-brand-container-heading h2 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.brand .content .our-brand-container-heading h2:first-child {
+    color: var(--secondary);
+    padding-right: 10px;
+}
+
+.brand .content .our-brand-container-heading h2:nth-child(2) {
+    color: var(--primary);
+}
+
+.product {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.product .container {
+    /* width: 1240px; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.product .col-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.product .col-1 img {
+    width: 100%;
+}
+
+.product .col-2 {
+    margin: auto;
+    padding: 0 200px;
+}
+
+.product .col-2 .our-brands-license p {
+    color: #575757;
+}
+
+.product .col-2 .our-brands-license li {
+    display: inline-flex; 
+    font-weight: 900; 
+    font-size: 20px; 
+    color: var(--license-list)
+}
+.product .col-2 .our-brands-license li:hover {
+    cursor: pointer;
+}
+
+.product .col-2 .our-brands-license li::after {
+    content: "|"; padding: 0 10px; font-weight: 100;
+}
+
+.product .col-2 .our-brands-license li:last-child::after {
+    content: "";
+}
+
+.product .showmore-container {
+    display: block;
+    margin: 100px 0;
+}
+
+.product .showmore-container .showmore-txt{
+    font-weight: 800;
+    letter-spacing: 2px; 
+    font-size: 18px; 
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+}
+
+.product .showmore-container .btn-show:hover{
+    cursor: pointer;
+}
+
+
+/*--------------RESPONSIVE CSS ----------------*/
+@media screen and (max-width:940px) {
+    /* .brand {height: 100vh;} */
+    .brand {margin: 1rem 0;}
+    .brand .content .our-brand-container-heading h2 {font-size: 40px;}
+    .brand .content .par-txt{font-size: 14px;margin-top: 15px;}
+    .brand .content .product .col-2 .par-txt,
+    .brand .content .product .col-2 .license-txt,
+    .brand .content .product .col-2 ul li {font-size: 16px;}
+    
+
+
+    /* .brand .content .product .container {grid-template-columns: 1fr; max-width: 100%;} */
+    .brand .content .product .container {display: flex; flex-wrap: wrap;}
+    .brand .content .product .container .col-2 img{max-width: 200px;}
+    .brand .content .product .container:last-child {margin-bottom: 60px;}
+    .brand .content .product .container:nth-child(2) .col-1 {order: 1;}
+    .brand .content .product .container:nth-child(2) .col-2 {order: 2;}
+    .brand .content .product .container:nth-child(4) .col-1 {order: 1;}
+    .brand .content .product .container:nth-child(4) .col-2 {order: 2;}
+    .brand .content .product .container:nth-child(6) .col-1 {order: 1;}
+    .brand .content .product .container:nth-child(6) .col-2 {order: 2;}
+
+    .product {margin-top: 35px;}
+    .product .col-2 {padding: 1rem;}
+    .product .col-2 .our-brands-license,
+    .product .col-2 .our-brands-license ul {margin-top: 15px;}
+    .product .col-2 .our-brands-license button {margin-top: 30px;}
+
+    .product .showmore-container {margin: 70px 0;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
