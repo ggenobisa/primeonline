@@ -6,7 +6,6 @@
     border-bottom: 5px dotted #60A7DB;
 }
 
-
 .about .content {
     height: 90%;
     display: flex;
@@ -30,6 +29,7 @@
     font-size: 70px;
     font-weight: 900;
 }
+
 .about .content .about-us-container-heading h2:first-child {
     color: var(--primary);
     padding-right: 10px;
@@ -64,22 +64,3 @@
     .about .content {height: 100vh;}
     .about .content .about-us-container-heading {margin: 0 auto; padding: 1rem;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

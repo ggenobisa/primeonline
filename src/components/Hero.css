@@ -5,7 +5,6 @@
     position: relative;
 }
 
-
 .hero .content {
     height: 100%;
     display: flex;
@@ -51,22 +50,3 @@
     .hero .content h2 {font-size: 20px;}
     .hero .content .hero-btn h3 {font-size: 12px;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

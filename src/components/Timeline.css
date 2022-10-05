@@ -6,15 +6,12 @@
     visibility: hidden;
 }
 
-
-
 .timeline {
     background: url('../img/timeline-bg.jpg') center center/cover no-repeat; 
     height: 100vh; 
     width: 100%; 
     position: relative;
 }
-
 
 .timeline .content {
     height: 100%;
@@ -23,7 +20,6 @@
     justify-content: center;
     max-width: 1300px;
     margin: auto;
-    /* padding: 1rem; */
     text-align: center;
     color: var(--plain);
 }
@@ -36,9 +32,9 @@
 
 .timeline .content .timeline-container-heading h2 {
     font-size: 70px;
-    /* font-weight: 700; */
     margin-bottom: 10px;
 }
+
 .timeline .content .timeline-container-heading h2:first-child {
     color: var(--primary);
     padding-right: 10px;
@@ -51,7 +47,6 @@
 .timeline .content img {
     width: 100%;
 }
-/* .timeline .content .time-mob {display: none;} */
 
 .timeline .content .timeline-btn {
     position: absolute;
@@ -65,32 +60,7 @@
     .timeline {background: url('../img/mobile/timeline-bg-m.jpg') center center/cover no-repeat; height: auto;}
     .timeline .content {padding: 2rem 0;}
     .timeline .content .timeline-container-heading h2 {font-size: 40px;}
-    /* .timeline .content .time-desk {display: none;} */
-    /* .timeline .content .time-mob {display:block; width: 70%; margin: 0 auto;} */
     .timeline .content .timeline-container-heading {padding: 0 0 3rem 0;}
     .timeline .content .time-mob {width: 80%; margin: 0 auto; padding: 0 0 4rem 0;}
     .timeline .content .timeline-btn {display: none;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
