@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/primeonline/static/css/main.9894cc81.css",
-    "main.js": "/primeonline/static/js/main.f7ca32c2.js",
+    "main.css": "/primeonline/static/css/main.32e8da75.css",
+    "main.js": "/primeonline/static/js/main.da1ac872.js",
     "static/media/banner-desktop.jpg": "/primeonline/static/media/banner-desktop.77d555f47daf7372c83f.jpg",
     "static/media/about-us-desktop.jpg": "/primeonline/static/media/about-us-desktop.bef5b08e4d88c05d7786.jpg",
     "static/media/sc.jpg": "/primeonline/static/media/sc.63ffbb03112ef13c1269.jpg",
@@ -18,7 +18,6 @@
     "static/media/sng.jpg": "/primeonline/static/media/sng.9f111daeb1b7aa8a24eb.jpg",
     "static/media/map.jpg": "/primeonline/static/media/map.1a71c2da4b132f606104.jpg",
     "static/media/banner-m.jpg": "/primeonline/static/media/banner-m.bf29f165a4d2b21f9a17.jpg",
-    "static/media/map-m.jpg": "/primeonline/static/media/map-m.3a8fbf93e7288c8162d8.jpg",
     "static/media/about-m.jpg": "/primeonline/static/media/about-m.450128dd4cba05ecc416.jpg",
     "static/media/timeline-desktop.png": "/primeonline/static/media/timeline-desktop.42a3048da0454d7e6cef.png",
     "static/media/timeline-bg-m.jpg": "/primeonline/static/media/timeline-bg-m.e3f204f383038ec62966.jpg",
@@ -33,11 +32,11 @@
     "static/media/primescratchcards.png": "/primeonline/static/media/primescratchcards.941fe4426dff76ef5a44.png",
     "static/media/slingo.png": "/primeonline/static/media/slingo.be9de6c6890044753594.png",
     "index.html": "/primeonline/index.html",
-    "main.9894cc81.css.map": "/primeonline/static/css/main.9894cc81.css.map",
-    "main.f7ca32c2.js.map": "/primeonline/static/js/main.f7ca32c2.js.map"
+    "main.32e8da75.css.map": "/primeonline/static/css/main.32e8da75.css.map",
+    "main.da1ac872.js.map": "/primeonline/static/js/main.da1ac872.js.map"
   },
   "entrypoints": [
-    "static/css/main.9894cc81.css",
-    "static/js/main.f7ca32c2.js"
+    "static/css/main.32e8da75.css",
+    "static/js/main.da1ac872.js"
   ]
 }
