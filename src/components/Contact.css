@@ -1,8 +1,8 @@
 #contact::before {
     content: '';
     display: block;
-    height: 75px;
-    margin-top: -75px;
+    height: 85px;
+    margin-top: -85px;
     visibility: hidden;
 }
 

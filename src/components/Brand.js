@@ -73,7 +73,7 @@ const Brand = () => {
                             <img src={sclogo} alt='Slingo' />
                             <p className='par-txt'>Slingo is a vibrant online casino and the official site for slingo games, the hugely popular blend of slots and bingo played by over 55 million people worldwide on casino and social platforms.</p>
                             <div className='our-brands-license'>
-                                <p>Licensed In:</p>
+                                <p className='license-txt'>Licensed In:</p>
                                 <ul>
                                     <li>UK</li>
                                     <li>MGA</li>
@@ -115,7 +115,7 @@ const Brand = () => {
                             <img src={lplogo} alt='LordPing' />
                             <p className='par-txt'>Known for being the online casino for opinionated players, LordPing offers an experience that is a cut above the rest with its unique take on online gaming.</p>
                             <div className='our-brands-license'>
-                                <p>Licensed In:</p>
+                                <p className='license-txt'>Licensed In:</p>
                                 <ul>
                                     <li>UK</li>
                                     <li>MGA</li>
@@ -161,7 +161,7 @@ const Brand = () => {
                                 <img src={snglogo} alt='Spin Genie' />
                                 <p className='par-txt'>Spin Genie promotes fair, fun, and friendly online casino gaming. In 2022 we launched its Ontario site (SpinGenie.ca) which makes SpinGenie our first brand under Ontario regulation.</p>
                                 <div className='our-brands-license'>
-                                    <p>Licensed In:</p>
+                                    <p className='license-txt'>Licensed In:</p>
                                     <ul>
                                         <li>UK</li>
                                         <li>MGA</li>
@@ -202,7 +202,7 @@ const Brand = () => {
                                 <img src={psclogo} alt='Prime ScratchCards' />
                                 <p className='par-txt'>Prime ScratchCards was established in 2007 and has since then provided a premium selection of instant win games as well as thousands of slot games from leading providers.</p>
                                 <div className='our-brands-license'>
-                                    <p>Licensed In:</p>
+                                    <p className='license-txt'>Licensed In:</p>
                                     <ul>
                                         <li>UK</li>
                                         <li>MGA</li>
@@ -242,7 +242,7 @@ const Brand = () => {
                                 <img src={pclogo} alt='Prime Casino' />
                                 <p className='par-txt'>Prime Casino is the first brand launched by Prime Online. Since 2015, it has found its place in the online casino market with its steady and continuous improvement into providing one of the best gaming experiences.</p>
                                 <div className='our-brands-license'>
-                                    <p>Licensed In:</p>
+                                    <p className='license-txt'>Licensed In:</p>
                                     <ul>
                                         <li>UK</li>
                                         <li>MGA</li>

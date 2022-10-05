@@ -3,7 +3,7 @@ import './Contact.css'
 // import { UseForm } from 'react-hook-form'
 
 import map from '../img/map.jpg'
-import map_mobile from '../img/mobile/map-m.jpg'
+// import map_mobile from '../img/mobile/map-m.jpg'
 import fb from '../img/socials/facebook.png'
 import ig from '../img/socials/instagram.png'
 import link from '../img/socials/linkedin.png'
@@ -17,7 +17,7 @@ const Contact = () => {
                     {/* <img className='hide-mobile' src={map} alt='Prime Online LTD' />
                     <img className='hide-desktop' src={map_mobile} alt='Prime Online LTD test101' /> */}
 
-                <a href="https://goo.gl/maps/UWuNWxD82stCt2ZP8" target="_blank"><img src={map} alt='Prime Online LTD' /></a>
+                <a href="https://goo.gl/maps/UWuNWxD82stCt2ZP8" target="_blank" rel="noreferrer"><img src={map} alt='Prime Online LTD' /></a>
                 </div>
                 <div className='col-2'>
                     <h3>CONTACT US</h3>

@@ -41,7 +41,7 @@
 
 .about .content .about-btn {
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     left: 0;
     right: 0;
 }
@@ -57,7 +57,12 @@
     .about {background: url('../img/mobile/about-m.jpg') center center/cover no-repeat;}
     .about .content .about-us-container-heading h2 {font-size: 40px;}
     .about .content p {font-size: 14px;}
-    .about .content .about-us-container-heading {margin-bottom: 40px;}
+    .about .content .about-us-container-heading {padding: 30px;}
+}
+
+@media screen and (max-width:940px) and (orientation: landscape) {
+    .about .content {height: auto;}
+    .about .content .about-us-container-heading {margin: 0 auto; padding: 1rem;}
 }
 
 

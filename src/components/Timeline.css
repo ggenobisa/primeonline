@@ -55,7 +55,7 @@
 
 .timeline .content .timeline-btn {
     position: absolute;
-    bottom: 2%;
+    bottom: 3%;
     left: 0;
     right: 0;
 }
@@ -67,7 +67,8 @@
     .timeline .content .timeline-container-heading h2 {font-size: 40px;}
     /* .timeline .content .time-desk {display: none;} */
     /* .timeline .content .time-mob {display:block; width: 70%; margin: 0 auto;} */
-    .timeline .content .time-mob {width: 70%; margin: 0 auto;}
+    .timeline .content .timeline-container-heading {padding: 0 0 3rem 0;}
+    .timeline .content .time-mob {width: 80%; margin: 0 auto; padding: 0 0 4rem 0;}
     .timeline .content .timeline-btn {display: none;}
 }
 
