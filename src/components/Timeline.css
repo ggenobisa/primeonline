@@ -36,7 +36,7 @@
 
 .timeline .content .timeline-container-heading h2 {
     font-size: 70px;
-    font-weight: 700;
+    /* font-weight: 700; */
     margin-bottom: 10px;
 }
 .timeline .content .timeline-container-heading h2:first-child {

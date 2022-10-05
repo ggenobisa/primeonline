@@ -37,7 +37,7 @@
 
 .expertise .content .expertise-container-heading h2 {
     font-size: 70px;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 .expertise .content .expertise-container-heading h2:first-child {
     color: var(--primary);

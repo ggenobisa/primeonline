@@ -22,7 +22,7 @@
     justify-content: center;
     /* max-width: 1300px; */
     margin: auto;
-    padding: 1rem 0;
+    padding: 2.5rem 0;
     text-align: center;
     color: var(--plain);
     padding-bottom: 0;
@@ -36,7 +36,7 @@
 
 .brand .content .our-brand-container-heading h2 {
     font-size: 70px;
-    font-weight: 700;
+    /* font-weight: 700; */
     margin-bottom: 0;
 }
 .brand .content .our-brand-container-heading h2:first-child {
@@ -91,17 +91,27 @@
     font-size: 20px; 
     color: var(--license-list)
 }
-.product .col-2 .our-brands-license li:hover {
+/* .product .col-2 .our-brands-license li:hover {
     cursor: pointer;
+} */
+
+.product .col-2 .our-brands-license a {
+    border-right: 1px solid var(--license-list);
+    padding: 0.3rem 1rem;
+    height: 30px;
 }
 
-.product .col-2 .our-brands-license li::after {
-    content: "|"; padding: 0 10px; font-weight: 100;
+.product .col-2 .our-brands-license a:last-child {
+    border-right: none;
 }
 
-.product .col-2 .our-brands-license li:last-child::after {
+/* .product .col-2 .our-brands-license a::after {
+    content: "|"; padding: 0 10px; font-weight: 300; color: var(--license-list);
+}
+
+.product .col-2 .our-brands-license a:last-child::after {
     content: "";
-}
+} */
 
 .product .showmore-container {
     display: block;

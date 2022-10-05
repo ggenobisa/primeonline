@@ -41,16 +41,31 @@ const Contact = () => {
 
                     <div className='prime-details'>
                         <h3>HOW TO FIND US</h3>
+                        {/* ADDRESS */}
                         <div className='container'>
                             <div className='col-1'>
                                 <h4>Address</h4>
-                                <h4>Phone</h4>
-                                <h4>Email</h4>
                             </div>
                             <div className='col-2'>
                                 <p>Prime Online Ltd.<br></br>Anapafseos 1, Limassol, 3096<br></br>Cyprus.</p>
-                                <p>+357-25-279200</p>
-                                <p>contact@primeonline.ltd</p>
+                            </div>
+                        </div>
+                        {/* PHONE */}
+                        <div className='container'>
+                            <div className='col-1'>
+                                <h4>Phone</h4>
+                            </div>
+                            <div className='col-2'>
+                                <a href="tel:+357-25-279200"><p>+357-25-279200</p></a>
+                            </div>
+                        </div>
+                        {/* EMAIL */}
+                        <div className='container'>
+                            <div className='col-1'>
+                                <h4>Email</h4>
+                            </div>
+                            <div className='col-2'>
+                                <a href="mailto: contact@primeonline.ltd"><p>contact@primeonline.ltd</p></a>
                             </div>
                         </div>
                         
@@ -62,19 +77,36 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+
+
                 <div className='col-3 hide-desktop'>
                     <div className='prime-details'>
                         <h3>HOW TO FIND US</h3>
+                        {/* ADDRESS */}
                         <div className='container'>
                             <div className='col-1'>
                                 <h4>Address</h4>
-                                <h4>Phone</h4>
-                                <h4>Email</h4>
                             </div>
                             <div className='col-2'>
                                 <p>Prime Online Ltd.<br></br>Anapafseos 1, Limassol, 3096<br></br>Cyprus.</p>
-                                <p>+357-25-279200</p>
-                                <p>contact@primeonline.ltd</p>
+                            </div>
+                        </div>
+                        {/* PHONE */}
+                        <div className='container'>
+                            <div className='col-1'>
+                                <h4>Phone</h4>
+                            </div>
+                            <div className='col-2'>
+                                <a href="tel:+357-25-279200"><p>+357-25-279200</p></a>
+                            </div>
+                        </div>
+                        {/* EMAIL */}
+                        <div className='container'>
+                            <div className='col-1'>
+                                <h4>Email</h4>
+                            </div>
+                            <div className='col-2'>
+                                <a href="mailto: contact@primeonline.ltd"><p>contact@primeonline.ltd</p></a>
                             </div>
                         </div>
                         

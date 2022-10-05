@@ -2,7 +2,7 @@
     --primary: #0180DD;
     --secondary: #858C90;
     --plain: #FFF;
-    --black: #000000;
+    --black: #323232;
     --license: #575757;
     --license-list: #60A7DB;
     --background: #011D32;
@@ -25,6 +25,10 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+h2 {
+  font-weight: 900;
 }
 
 a {
@@ -52,34 +56,6 @@ button {
 button:hover {
   cursor: pointer;
 }
-
-/* .btn-showmore {
-  width: 220px; 
-  border: 1px solid var(--primary); 
-  border-radius: 30px; 
-  font-weight: 800;
-  letter-spacing: 2px; 
-  background-color: var(--whitetext);
-  padding:8px; 
-  font-size: 18px; 
-  color: var(--primary);
-  text-transform: uppercase;
-  margin: 50px 0;
-} */
-
-/* .btn-showmore {
-  font-weight: 800;
-  letter-spacing: 2px; 
-  font-size: 18px; 
-  color: var(--primary);
-  text-transform: uppercase;
-} */
-
-/* .btn-showmore:hover {
-  color: var(--whitetext);
-  border: 1px solid var(--primary);
-  background-color: var(--primary);
-} */
 
 .par-txt {
   font-family: 'Open Sans', sans-serif;

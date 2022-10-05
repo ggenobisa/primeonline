@@ -26,6 +26,25 @@ import lms from '../img/brands/lms.jpg'
 import lmslogo from '../img/logos/luckyme-slots.png'
 import $ from "jquery";
 
+const uk = 'https://www.gamblingcommission.gov.uk/';
+const mga = 'https://www.mga.org.mt/';
+const dk = 'https://www.spillemyndigheden.dk/';
+const se = 'https://www.spelinspektionen.se/';
+const on = 'https://igamingontario.ca/en';
+const es = 'https://www.ordenacionjuego.es/es';
+
+const genting ='https://www.gentingcasino.com/';
+const slingo ='https://www.slingo.com/';
+const megacasino ='https://megacasino.co.uk/';
+const lordping ='https://www.lordping.co.uk/';
+const ice36 ='https://www.ice36.co.uk/';
+const spingenie ='https://spingenie.com/';
+const primeslots ='https://primeslots.co.uk';
+const primescratchcards ='https://www.primescratchcards.co.uk/';
+const simbagames ='https://www.simbagames.co.uk/';
+const primecasino ='https://www.primecasino.co.uk/';
+const luckymeslots ='https://www.luckymeslots.co.uk/';
+
 const Brand = () => {
 
     useEffect(() => {
@@ -56,13 +75,13 @@ const Brand = () => {
                             <div className='our-brands-license'>
                                 <p className='license-txt'>Licensed In:</p>
                                 <ul>
-                                    <li>UK</li>
-                                    <li>MGA</li>
-                                    <li>DK</li>
-                                    <li>SE</li>
-                                    <li>ES</li>
+                                    <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                    <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
+                                    <a href={dk} target="_blank" rel="noreferrer"><li>DK</li></a>
+                                    <a href={se} target="_blank" rel="noreferrer"><li>SE</li></a>
+                                    <a href={es} target="_blank" rel="noreferrer"><li>ES</li></a>
                                 </ul>
-                                <button className='button'>visit site</button>
+                                <a href={genting} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                             </div>
                         </div>
                     </div> {/*class: container*/}
@@ -75,11 +94,11 @@ const Brand = () => {
                             <div className='our-brands-license'>
                                 <p className='license-txt'>Licensed In:</p>
                                 <ul>
-                                    <li>UK</li>
-                                    <li>MGA</li>
-                                    <li>SE</li>
+                                    <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                    <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
+                                    <a href={se} target="_blank" rel="noreferrer"><li>SE</li></a>
                                 </ul>
-                                <button className='button'>visit site</button>
+                                <a href={slingo} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                             </div>
                         </div>
                         <div className='col-1'>
@@ -98,13 +117,13 @@ const Brand = () => {
                             <div className='our-brands-license'>
                                 <p className='license-txt'>Licensed In:</p>
                                 <ul>
-                                    <li>UK</li>
-                                    <li>MGA</li>
-                                    <li>DK</li>
-                                    <li>SE</li>
-                                    <li>ES</li>
+                                    <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                    <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
+                                    <a href={dk} target="_blank" rel="noreferrer"><li>DK</li></a>
+                                    <a href={se} target="_blank" rel="noreferrer"><li>SE</li></a>
+                                    <a href={es} target="_blank" rel="noreferrer"><li>ES</li></a>
                                 </ul>
-                                <button className='button'>visit site</button>
+                                <a href={megacasino} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                             </div>
                         </div>
                     </div> {/*class: container*/}
@@ -117,11 +136,11 @@ const Brand = () => {
                             <div className='our-brands-license'>
                                 <p className='license-txt'>Licensed In:</p>
                                 <ul>
-                                    <li>UK</li>
-                                    <li>MGA</li>
-                                    <li>SE</li>
+                                    <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                    <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
+                                    <a href={se} target="_blank" rel="noreferrer"><li>SE</li></a>
                                 </ul>
-                                <button className='button'>visit site</button>
+                                <a href={lordping} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                             </div>
                         </div>
                         <div className='col-1'>
@@ -146,11 +165,11 @@ const Brand = () => {
                                 <div className='our-brands-license'>
                                     <p className='license-txt'>Licensed In:</p>
                                     <ul>
-                                        <li>UK</li>
-                                        <li>MGA</li>
-                                        <li>DK</li>
+                                        <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                        <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
+                                        <a href={dk} target="_blank" rel="noreferrer"><li>DK</li></a>
                                     </ul>
-                                    <button className='button'>visit site</button>
+                                    <a href={ice36} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                                 </div>
                             </div>
                         </div> {/*class: container*/}
@@ -163,13 +182,13 @@ const Brand = () => {
                                 <div className='our-brands-license'>
                                     <p className='license-txt'>Licensed In:</p>
                                     <ul>
-                                        <li>UK</li>
-                                        <li>MGA</li>
-                                        <li>DK</li>
-                                        <li>SE</li>
-                                        <li>ON</li>
+                                        <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                        <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
+                                        <a href={dk} target="_blank" rel="noreferrer"><li>DK</li></a>
+                                        <a href={se} target="_blank" rel="noreferrer"><li>SE</li></a>
+                                        <a href={on} target="_blank" rel="noreferrer"><li>ON</li></a>
                                     </ul>
-                                    <button className='button'>visit site</button>
+                                    <a href={spingenie} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                                 </div>
                             </div>
                             <div className='col-1'>
@@ -188,10 +207,10 @@ const Brand = () => {
                                 <div className='our-brands-license'>
                                     <p className='license-txt'>Licensed In:</p>
                                     <ul>
-                                        <li>UK</li>
-                                        <li>MGA</li>
+                                        <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                        <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
                                     </ul>
-                                    <button className='button'>visit site</button>
+                                    <a href={primeslots} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                                 </div>
                             </div>
                         </div> {/*class: container*/}
@@ -204,10 +223,10 @@ const Brand = () => {
                                 <div className='our-brands-license'>
                                     <p className='license-txt'>Licensed In:</p>
                                     <ul>
-                                        <li>UK</li>
-                                        <li>MGA</li>
+                                        <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                        <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
                                     </ul>
-                                    <button className='button'>visit site</button>
+                                    <a href={primescratchcards} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                                 </div>
                             </div>
                             <div className='col-1'>
@@ -226,12 +245,12 @@ const Brand = () => {
                                 <div className='our-brands-license'>
                                     <p className='license-txt'>Licensed In:</p>
                                     <ul>
-                                        <li>UK</li>
-                                        <li>MGA</li>
-                                        <li>DK</li>
-                                        <li>SE</li>
+                                        <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                        <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
+                                        <a href={dk} target="_blank" rel="noreferrer"><li>DK</li></a>
+                                        <a href={se} target="_blank" rel="noreferrer"><li>SE</li></a>
                                     </ul>
-                                    <button className='button'>visit site</button>
+                                    <a href={simbagames} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                                 </div>
                             </div>
                         </div> {/*class: container*/}
@@ -244,10 +263,10 @@ const Brand = () => {
                                 <div className='our-brands-license'>
                                     <p className='license-txt'>Licensed In:</p>
                                     <ul>
-                                        <li>UK</li>
-                                        <li>MGA</li>
+                                        <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                        <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
                                     </ul>
-                                    <button className='button'>visit site</button>
+                                    <a href={primecasino} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                                 </div>
                             </div>
                             <div className='col-1'>
@@ -266,11 +285,11 @@ const Brand = () => {
                                 <div className='our-brands-license'>
                                     <p className='license-txt'>Licensed In:</p>
                                     <ul>
-                                        <li>UK</li>
-                                        <li>MGA</li>
-                                        <li>DK</li>
+                                        <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                        <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
+                                        <a href={dk} target="_blank" rel="noreferrer"><li>DK</li></a>
                                     </ul>
-                                    <button className='button'>visit site</button>
+                                    <a href={luckymeslots} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
                                 </div>
                             </div>
                         </div> {/*class: container*/}
