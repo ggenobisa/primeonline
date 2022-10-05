@@ -249,6 +249,13 @@ input[type="submit"]:hover {
     .contact .container .col-3 .soc-icons img {width: 50px; margin-right: 15px;}
 }
 
+@media screen and (max-width:940px) and (orientation: landscape) {
+    .contact .container .col-1,
+    .contact .container .col-2,
+    .contact .container .col-3 {width: 100%;}
+    .contact .container .col-3 .container {width: 45%;margin: 0 auto;padding-bottom: 15px;}
+}
+
 
 
 

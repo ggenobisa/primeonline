@@ -104,6 +104,8 @@
 
 @media screen and (max-width:940px) and (orientation: landscape) {
     .expertise {height: auto;}
+    .expertise .content .expertise-container-heading {padding: 5rem 0 2rem;}
+    .expertise .content .expertise-btn {bottom: 0;}
     /* .expertise .content .expertise-container-heading {padding: 2rem 0;} */
     /* .expertise .content .expertise-content {padding: 0 0 4rem 0;}*/
 }

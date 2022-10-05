@@ -61,7 +61,7 @@
 }
 
 @media screen and (max-width:940px) and (orientation: landscape) {
-    .about .content {height: auto;}
+    .about .content {height: 100vh;}
     .about .content .about-us-container-heading {margin: 0 auto; padding: 1rem;}
 }
 
