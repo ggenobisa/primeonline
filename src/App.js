@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {createContext, useState} from 'react'
 import './index.css';
+import Overlay from './components/Overlay'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -10,15 +11,16 @@ import ContactUs from './components/Contact'
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <About />
-      <Brand />
-      <Timeline />
-      <Expertise />
-      <ContactUs />
-    </div>
+        <div>
+          <Overlay />
+          <Navbar />
+          <Hero />
+          <About />
+          <Brand />
+          <Timeline />
+          <Expertise />
+          <ContactUs />
+        </div>
     );
   }
   

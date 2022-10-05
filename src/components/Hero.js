@@ -24,7 +24,6 @@ const Hero = () => {
                     <FaChevronDown  className='btn-scroll btn-hero' size={50} style={{ color: '#ffffff' }} />
                 </div>
             </div>
-            
         </div>
     )
 }
