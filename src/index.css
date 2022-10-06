@@ -63,6 +63,7 @@ button:hover {
   font-size: 22px;
   color: var(--black);
   letter-spacing: 1px;
+  margin: 0 auto;
 }
 
 .license-txt {

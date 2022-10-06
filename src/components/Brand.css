@@ -68,7 +68,11 @@
 
 .product .col-2 {
     margin: auto;
-    padding: 0 200px;
+    /* padding: 0 200px; */
+}
+
+.product .col-2 .par-txt {
+    width: 60%;
 }
 
 .product .col-2 .our-brands-license {
@@ -147,5 +151,16 @@
     .product .col-2 .our-brands-license button {margin-top: 30px;}
 
     .product .showmore-container {margin: 70px 0;}
+
+    .product .col-2 .par-txt {
+        width: 100%; margin: 0;}
     
+}
+
+@media screen and (max-width:320px) {
+    .nav-menu.active {left: 32% !important;}
+    .product .col-2 .our-brands-license a {padding: 0.3rem 0.5rem;}
+    .contact .prime-details h3 {font-size: 30px !important;}
+    .contact .container .col-3 p {font-size: 13px !important;}
+    .contact .container .col-2 h3 {font-size: 25px !important;}
 }
