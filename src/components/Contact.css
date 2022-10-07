@@ -206,7 +206,7 @@ input[type="submit"]:hover {
 
 /*--------------RESPONSIVE CSS ----------------*/
 @media screen and (max-width:1024px) {
-    /* .contact .container .col-1 img {transform: translateX(-180px);} */
+    .contact .container .col-1 img {transform: translateX(-180px);}
     .Form {padding: 0 0 0 2rem;}
     .prime-details .container {padding-left: 30px; padding-right: 0;}
 }
