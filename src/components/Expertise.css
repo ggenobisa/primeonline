@@ -72,16 +72,13 @@
 }
 
 /*--------------RESPONSIVE CSS ----------------*/
-@media screen and (max-width:940px) {
-    /* #expertise::before {
-        content: '';
-        display: block;
-        height: 55px;
-        margin-top: -55px;
-        visibility: hidden;
-    } */
+@media screen and (max-width:1024px) {
+    .expertise .content .expertise-content {padding: 0 4.5rem;}
+    .expertise-content .container ul li {font-size: 25px;}
+    .expertise-content .container ul li img {padding-right: 10px; vertical-align: middle;}
+}
 
-    /* .expertise {height: 94vh;} */
+@media screen and (max-width:940px) {
     .expertise .content .expertise-container-heading {display:block; padding: 2rem 0;}
     .expertise .content .expertise-container-heading h2 {font-size: 40px;}
     .expertise .content .expertise-content {margin: 0 auto; padding: 0 0 2rem 0;}

@@ -148,54 +148,54 @@ const Brand = () => {
                         </div>
                     </div> {/*class: container*/}
 
+                    {/*---------ICE36-------*/}
+                    <div className='container'>
+                        <div className='col-1'>
+                            <img src={i36} alt='ICE36' />
+                        </div>
+                        <div className='col-2'>
+                            <img src={i36logo} alt='ICE36' />
+                            <p className='par-txt'>ICE36 takes online casino gaming to the next level through its cool and stylish way of offering premium service to new and seasoned online casino players.</p>
+                            <div className='our-brands-license'>
+                                <p className='license-txt'>Licensed In:</p>
+                                <ul>
+                                    <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                    <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
+                                    <a href={dk} target="_blank" rel="noreferrer"><li>DK</li></a>
+                                </ul>
+                                <a href={ice36} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
+                            </div>
+                        </div>
+                    </div> {/*class: container*/}
+
+                    {/*---------SPIN GENIE-------*/}
+                    <div className='container'>
+                        <div className='col-2'>
+                            <img src={snglogo} alt='Spin Genie' />
+                            <p className='par-txt'>Spin Genie promotes fair, fun, and friendly online casino gaming. In 2022 we launched its Ontario site (SpinGenie.ca) which makes Spin Genie our first brand under Ontario regulation.</p>
+                            <div className='our-brands-license'>
+                                <p className='license-txt'>Licensed In:</p>
+                                <ul>
+                                    <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
+                                    <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
+                                    <a href={se} target="_blank" rel="noreferrer"><li>SE</li></a>
+                                    <a href={on} target="_blank" rel="noreferrer"><li>ON</li></a>
+                                </ul>
+                                <a href={spingenie} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
+                            </div>
+                        </div>
+                        <div className='col-1'>
+                            <img src={sng} alt='Spin Genie' />
+                        </div>
+                    </div> {/*class: container*/}
+
                     <div className='showmore-container'>
                         <p className='showmore-txt'>show more</p>
                         <FaAngleDoubleDown className='btn-show' size={30} style={{ color: '#0180DD' }} />
                     </div>
 
-                    {/*---------ICE36-------*/}
+                    
                     <div className='hide-our-brands-content'>
-                        <div className='container'>
-                            <div className='col-1'>
-                                <img src={i36} alt='ICE36' />
-                            </div>
-                            <div className='col-2'>
-                                <img src={i36logo} alt='ICE36' />
-                                <p className='par-txt'>ICE36 takes online casino gaming to the next level through its cool and stylish way of offering premium service to new and seasoned online casino players.</p>
-                                <div className='our-brands-license'>
-                                    <p className='license-txt'>Licensed In:</p>
-                                    <ul>
-                                        <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
-                                        <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
-                                        <a href={dk} target="_blank" rel="noreferrer"><li>DK</li></a>
-                                    </ul>
-                                    <a href={ice36} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
-                                </div>
-                            </div>
-                        </div> {/*class: container*/}
-
-                        {/*---------SPIN GENIE-------*/}
-                        <div className='container'>
-                            <div className='col-2'>
-                                <img src={snglogo} alt='Spin Genie' />
-                                <p className='par-txt'>Spin Genie promotes fair, fun, and friendly online casino gaming. In 2022 we launched its Ontario site (SpinGenie.ca) which makes SpinGenie our first brand under Ontario regulation.</p>
-                                <div className='our-brands-license'>
-                                    <p className='license-txt'>Licensed In:</p>
-                                    <ul>
-                                        <a href={uk} target="_blank" rel="noreferrer"><li>UK</li></a>
-                                        <a href={mga} target="_blank" rel="noreferrer"><li>MGA</li></a>
-                                        <a href={dk} target="_blank" rel="noreferrer"><li>DK</li></a>
-                                        <a href={se} target="_blank" rel="noreferrer"><li>SE</li></a>
-                                        <a href={on} target="_blank" rel="noreferrer"><li>ON</li></a>
-                                    </ul>
-                                    <a href={spingenie} target="_blank" rel="noreferrer"><button className='button'>visit site</button></a>
-                                </div>
-                            </div>
-                            <div className='col-1'>
-                                <img src={sng} alt='Spin Genie' />
-                            </div>
-                        </div> {/*class: container*/}
-
                         {/*---------PRIME SLOTS-------*/}
                         <div className='container'>
                             <div className='col-1'>

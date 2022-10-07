@@ -48,5 +48,6 @@
     .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat; }
     .hero .content h1 {font-size: 40px;}
     .hero .content h2 {font-size: 20px;}
+    .hero .content .hero-btn {bottom: 5%;}
     .hero .content .hero-btn h3 {font-size: 12px;}
 }

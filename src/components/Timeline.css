@@ -37,7 +37,6 @@
 
 .timeline .content .timeline-container-heading h2:first-child {
     color: var(--primary);
-    padding-right: 10px;
 }
 
 .timeline .content .timeline-container-heading h2:nth-child(2) {
@@ -61,6 +60,6 @@
     .timeline .content {padding: 2rem 0;}
     .timeline .content .timeline-container-heading h2 {font-size: 40px;}
     .timeline .content .timeline-container-heading {padding: 0 0 3rem 0;}
-    .timeline .content .time-mob {width: 80%; margin: 0 auto; padding: 0 0 4rem 0;}
+    .timeline .content .time-mob {width: auto; margin: 0 auto; padding: 0 0 4rem 0;}
     .timeline .content .timeline-btn {display: none;}
 }
