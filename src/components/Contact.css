@@ -219,7 +219,8 @@ input[type="submit"]:hover {
     .contact .container .col-2 h3 {font-size: 30px;}
     .contact .container .col-2 .prime-details {display: none;}
     .contact .container .col-1 {max-width: 100%;}
-    .contact .container .col-1 img {position: unset;width: auto; height: 100%;transform: translate(-25%, 0px);}
+    /* .contact .container .col-1 img {position: unset;width: auto; height: 100%;transform: translate(-25%, 0px);} */
+    .contact .container .col-1 img {position: unset;width: auto; height: 600px;transform: scale(1.5)}
     .Form {padding: 1rem; margin-top: 35px;}
     .Form .column-2 {display: block;}
 
@@ -267,4 +268,8 @@ input[type="submit"]:hover {
 
     /* .contact .container .col-1 .hide-desktop {display: none;}
     .contact .container .col-1 .hide-mobile {display: block;} */
+}
+
+@media screen and (max-width:375px) {
+    .contact .container .col-1 img {height: 800px; transform: translate(-15%);}
 }

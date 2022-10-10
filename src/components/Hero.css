@@ -51,3 +51,7 @@
     .hero .content .hero-btn {bottom: 5%;}
     .hero .content .hero-btn h3 {font-size: 12px;}
 }
+
+@media screen and (max-width:375px) {
+    .hero .content {height: 90%;}
+}
