@@ -54,4 +54,5 @@
 
 @media screen and (max-width:375px) {
     .hero .content {height: 90%;}
+    .hero .content .hero-btn {bottom: 10%;}
 }
