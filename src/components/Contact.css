@@ -264,7 +264,7 @@ input[type="submit"]:hover {
 
 @media screen and (max-width:940px) and (orientation: landscape) {
     .contact .container .col-3 .container {width: 45%;margin: 0 auto;padding-bottom: 15px;}
-    .contact .container .col-1 img {width: 100%;height: auto; margin: 0 auto;transform: translateX(0);}
+    .contact .container .col-1 img {height: 800px; margin: 0 auto;}
 
     /* .contact .container .col-1 .hide-desktop {display: none;}
     .contact .container .col-1 .hide-mobile {display: block;} */
