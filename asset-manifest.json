@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/primeonline/static/css/main.0bfe3be7.css",
+    "main.css": "/primeonline/static/css/main.876470e3.css",
     "main.js": "/primeonline/static/js/main.c72b526b.js",
     "static/media/banner-desktop.jpg": "/primeonline/static/media/banner-desktop.77d555f47daf7372c83f.jpg",
     "static/media/about-us-desktop.jpg": "/primeonline/static/media/about-us-desktop.bef5b08e4d88c05d7786.jpg",
@@ -32,11 +32,11 @@
     "static/media/primescratchcards.png": "/primeonline/static/media/primescratchcards.941fe4426dff76ef5a44.png",
     "static/media/slingo.png": "/primeonline/static/media/slingo.be9de6c6890044753594.png",
     "index.html": "/primeonline/index.html",
-    "main.0bfe3be7.css.map": "/primeonline/static/css/main.0bfe3be7.css.map",
+    "main.876470e3.css.map": "/primeonline/static/css/main.876470e3.css.map",
     "main.c72b526b.js.map": "/primeonline/static/js/main.c72b526b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bfe3be7.css",
+    "static/css/main.876470e3.css",
     "static/js/main.c72b526b.js"
   ]
 }
