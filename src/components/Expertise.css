@@ -89,6 +89,7 @@
 
 @media screen and (max-width:940px) {
     #expertise::before {display: block;}
+    .expertise {height: auto;}
     .expertise .content .expertise-container-heading {display:block; padding: 2rem 0;}
     .expertise .content .expertise-container-heading h2 {font-size: 40px;}
     .expertise .content .expertise-content {margin: 0 auto; padding: 0 0 2rem 0;}
