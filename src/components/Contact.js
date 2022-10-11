@@ -3,6 +3,7 @@ import './Contact.css'
 // import { UseForm } from 'react-hook-form'
 
 import map from '../img/map.jpg'
+import map_landscape from '../img/mobile/map-mobile-landscape.jpg'
 import fb from '../img/socials/facebook.png'
 import ig from '../img/socials/instagram.png'
 import link from '../img/socials/linkedin.png'
@@ -18,14 +19,18 @@ const Contact = () => {
             <div className='container'>
                 <div className='col-1'>
 
-                    <img src={map} className='hide-mobile' usemap="#image-map" alt='Prime Online LTD'></img>
-                    <a href="https://goo.gl/maps/UWuNWxD82stCt2ZP8" target="_blank" rel="noreferrer"><img src={map} className='hide-desktop' alt='Prime Online LTD'></img></a>
+                <img src={map} className='hide-mobile' usemap="#image-map" alt='Prime Online LTD'></img>
                     
                 <map name="image-map">
                     <area target="_blank" alt="Prime Online LTD" title="Prime Online LTD" href="https://www.google.com/maps/place/Anapafseos,+Limassol,+Cyprus/@34.6894445,33.0562204,20.25z/data=!4m5!3m4!1s0x14e7336a80f4c7b5:0xce3af6fbd2cbfd46!8m2!3d34.6894901!4d33.0563325?shorturl=1" coords="255,637,519,688" shape="rect"></area>
                     <area target="_blank" alt="Prime Online LTD" title="Prime Online LTD" href="https://www.google.com/maps/place/Anapafseos,+Limassol,+Cyprus/@34.6894445,33.0562204,20.25z/data=!4m5!3m4!1s0x14e7336a80f4c7b5:0xce3af6fbd2cbfd46!8m2!3d34.6894901!4d33.0563325?shorturl=1" coords="388,733,49" shape="circle"></area>
                 </map>
+
+                {/* PORTRAIT */}
+                <a href="https://goo.gl/maps/UWuNWxD82stCt2ZP8" target="_blank" rel="noreferrer"><img src={map} className='hide-desktop hide-landscape' alt='Prime Online LTD'></img></a>
                 
+                {/* LANDSCAPE */}
+                <a href="https://goo.gl/maps/UWuNWxD82stCt2ZP8" target="_blank" rel="noreferrer"><img src={map_landscape} className='hide-desktop hide-portrait' alt='Prime Online LTD'></img></a>
 
                 
                 </div>

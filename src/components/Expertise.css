@@ -65,7 +65,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 32px;
     font-weight: 300;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .expertise-content .container ul li img {
@@ -90,11 +90,11 @@
 @media screen and (max-width:940px) {
     #expertise::before {display: block;}
     .expertise {height: auto;}
-    .expertise .content .expertise-container-heading {display:block; padding: 2rem 0;}
+    .expertise .content .expertise-container-heading {display:block; padding: 4rem 0;}
     .expertise .content .expertise-container-heading h2 {font-size: 40px;}
     .expertise .content .expertise-content {margin: 0 auto; padding: 0 0 2rem 0;}
     .expertise-content .container {grid-template-columns: 1fr;}
-    .expertise-content .container ul li {font-size: 16px; margin-bottom: 25px;}
+    .expertise-content .container ul li {font-size: 16px; margin-bottom: 40px;}
     .expertise-content .container ul li img {width: 50px;}
     .expertise .content .expertise-btn {bottom: 0;}
 }

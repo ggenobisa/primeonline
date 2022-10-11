@@ -58,13 +58,11 @@
     .about .content .about-us-container-heading h2 {font-size: 40px;}
     .about .content p {font-size: 14px;}
     .about .content .about-us-container-heading {padding: 30px;}
+    .about .content .about-btn {bottom: 10%;}
 }
 
 @media screen and (max-width:940px) and (orientation: landscape) {
     .about .content {height: 100vh;}
     .about .content .about-us-container-heading {margin: 0 auto; padding: 1rem;}
-}
-
-@media screen and (max-width:375px) {
-    .about .content .about-btn {bottom: 10%;}
+    .about .content .about-btn {bottom: 3%;}
 }

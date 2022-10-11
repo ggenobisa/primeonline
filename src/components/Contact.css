@@ -204,6 +204,8 @@ input[type="submit"]:hover {
     margin-right: 10px;
 }
 
+img.hide-desktop.hide-portrait {display: none;}
+
 /*--------------RESPONSIVE CSS ----------------*/
 @media screen and (max-width:1024px) {
     .contact .container .col-1 img {transform: translateX(-180px);}
@@ -219,7 +221,6 @@ input[type="submit"]:hover {
     .contact .container .col-2 h3 {font-size: 30px;}
     .contact .container .col-2 .prime-details {display: none;}
     .contact .container .col-1 {max-width: 100%;}
-    /* .contact .container .col-1 img {position: unset;width: auto; height: 100%;transform: translate(-25%, 0px);} */
     .contact .container .col-1 img {position: unset;width: auto; height: 600px;transform: scale(1.5)}
     .Form {padding: 1rem; margin-top: 35px;}
     .Form .column-2 {display: block;}
@@ -264,10 +265,8 @@ input[type="submit"]:hover {
 
 @media screen and (max-width:940px) and (orientation: landscape) {
     .contact .container .col-3 .container {width: 45%;margin: 0 auto;padding-bottom: 15px;}
-    .contact .container .col-1 img {height: 800px; margin: 0 auto;}
-
-    /* .contact .container .col-1 .hide-desktop {display: none;}
-    .contact .container .col-1 .hide-mobile {display: block;} */
+    .contact .container .col-1 img.hide-desktop.hide-portrait {display: block; height: 100%;transform: translateX(0px); width: 100%;}
+    .hide-landscape {display: none;}
 }
 
 @media screen and (max-width:375px) {
