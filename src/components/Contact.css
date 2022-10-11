@@ -269,6 +269,6 @@ img.hide-desktop.hide-portrait {display: none;}
     .hide-landscape {display: none;}
 }
 
-@media screen and (max-width:375px) {
+/* @media screen and (max-width:375px) {
     .contact .container .col-1 img {height: 800px; transform: translate(-15%);}
-}
+} */
