@@ -11,6 +11,10 @@ import ig from '../img/socials/instagram-b.png'
 import twitter from '../img/socials/twitter-b.png'
 import linkedin from '../img/socials/linkedin-b.png'
 
+const fb_link ='https://www.facebook.com/PrimeOnlineLtd';
+const ig_link ='https://www.instagram.com/primeonlineofficial/';
+const linkedin_link ='https://www.linkedin.com/company/prime-gaming/';
+
 
 const Navbar = () => {
 
@@ -79,10 +83,10 @@ const Navbar = () => {
                         <a href="tel:+357-25-279200"><p>+357-25-279200</p></a>
                         <a href="mailto: contact@primeonline.ltd"><p>contact@primeonline.ltd</p></a>
                         <ul>
-                            <li><img src={fb} alt='logo' /></li>
-                            <li><img src={ig} alt='logo' /></li>
-                            <li><img src={twitter} alt='logo' /></li>
-                            <li><img src={linkedin} alt='logo' /></li>
+                            <li><a href={fb_link} target="_blank" rel="noreferrer"><img src={fb} alt='Facebook' /></a></li>
+                            <li><a href={ig_link} target="_blank" rel="noreferrer"><img src={ig} alt='Instagram' /></a></li>
+                            {/* <li><img src={twitter} alt='logo' /></li> */}
+                            <li><a href={linkedin_link} target="_blank" rel="noreferrer"><img src={linkedin} alt='LinkedIn' /></a></li>
                         </ul>
                     </div>
                 </ul>

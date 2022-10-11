@@ -11,6 +11,7 @@ import twitter from '../img/socials/twitter.png'
 
 const fb_link ='https://www.facebook.com/PrimeOnlineLtd';
 const ig_link ='https://www.instagram.com/primeonlineofficial/';
+const linkedin_link ='https://www.linkedin.com/company/prime-gaming/';
 
 const Contact = () => {
     return (
@@ -86,8 +87,8 @@ const Contact = () => {
                         <div className='soc-icons'>
                             <a href={fb_link} target="_blank" rel="noreferrer"><img src={fb} alt='Facebook' /></a>
                             <a href={ig_link} target="_blank" rel="noreferrer"><img src={ig} alt='Instagram' /></a>
-                            <img src={twitter} alt='Twitter' />
-                            <img src={link} alt='LinkedIn' />
+                            {/* <img src={twitter} alt='Twitter' /> */}
+                            <a href={linkedin_link} target="_blank" rel="noreferrer"><img src={link} alt='LinkedIn' /></a>
                         </div>
                     </div>
                 </div>
@@ -127,8 +128,8 @@ const Contact = () => {
                         <div className='soc-icons'>
                             <a href={fb_link} target="_blank" rel="noreferrer"><img src={fb} alt='Facebook' /></a>
                             <a href={ig_link} target="_blank" rel="noreferrer"><img src={ig} alt='Instagram' /></a>
-                            <img src={twitter} alt='Twitter' />
-                            <img src={link} alt='LinkedIn' />
+                            {/* <img src={twitter} alt='Twitter' /> */}
+                            <a href={linkedin_link} target="_blank" rel="noreferrer"><img src={link} alt='LinkedIn' /></a>
                         </div>
                     </div>
                 </div>

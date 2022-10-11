@@ -143,13 +143,12 @@
     .product .col-2 .our-brands-license {margin-top: 1rem;}
     .product .col-2 .our-brands-license ul {margin-top: 1rem;}
     .product .col-2 .our-brands-license li {font-size: 15px;}
-    .product .col-2 .our-brands-license a {padding: 0 1rem;}
+    .product .col-2 .our-brands-license a {padding: 0 0.7rem;}
     .product .col-2 .our-brands-license button {width: 130px;margin-top: 15px;font-size: 16px;}
     .product .col-2  img {width: 60%;}
 }
 
 @media screen and (max-width:940px) {
-    /* .brand {height: 100vh;} */
     .brand {margin: 1rem 0;}
     .brand .content .our-brand-container-heading h2 {font-size: 40px;}
     .brand .content .par-txt{padding-top:20px;}

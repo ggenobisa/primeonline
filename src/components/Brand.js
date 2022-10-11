@@ -26,12 +26,12 @@ import lms from '../img/brands/lms.jpg'
 import lmslogo from '../img/logos/luckyme-slots.png'
 import $ from "jquery";
 
-const uk = 'https://www.gamblingcommission.gov.uk/';
-const mga = 'https://www.mga.org.mt/';
-const dk = 'https://www.spillemyndigheden.dk/';
+const uk = 'https://www.gamblingcommission.gov.uk/public-register/business/detail/domain-names/39326';
+const mga = 'https://authorisation.mga.org.mt/verification.aspx?lang=EN&company=40fa2935-c1f6-4e3b-af82-6aacde30717b&details=1';
+const dk = 'https://www.spillemyndigheden.dk/en/licence-holder/skill-net-limited';
 const se = 'https://www.spelinspektionen.se/';
 const on = 'https://igamingontario.ca/en';
-const es = 'https://www.ordenacionjuego.es/es';
+const es = 'https://www.ordenacionjuego.es/en/op-SkillonNet';
 
 const genting ='https://www.gentingcasino.com/';
 const slingo ='https://www.slingo.com/';
