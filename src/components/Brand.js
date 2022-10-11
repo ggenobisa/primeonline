@@ -71,7 +71,7 @@ const Brand = () => {
                         </div>
                         <div className='col-2'>
                             <img src={gclogo} alt='Genting Casino' />
-                            <p className='par-txt'>Genting Casino is a premium online casino launched in 2021, and part of the Genting global leisure and hospitality group, with 32 land-based casino venues in the UK.</p>
+                            <p className='par-txt'>Genting Casino is a premium online casino and part of the global hospitality and leisure group Genting Berhad. With five-star resorts and land-based casinos around the world, we are proud to share this experience with you online and on any device.</p>
                             <div className='our-brands-license'>
                                 <p className='license-txt'>Licensed In:</p>
                                 <ul>
